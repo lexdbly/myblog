@@ -17,12 +17,48 @@ I decided to abandon Wordpress for good, and move my everything to [hugo](https:
 Hugo is a static site generator written in Go language. Saying that, I have no clue about Go lang or any static site generators.
 Nevertheless, I managed to build this site and it does not look too bad in the end, does it?
 
-I'd like to show you how to install hugo and deploy your website by using github and digitalocean.
+I'd like to show you how to install hugo and deploy your website by using hugo, github and digitalocean. Lets get started!
 
-Lets get started:
+## How to install hugo on MacOS
 
-## How to install hugo on Mac
-
-```go
-some code here
+Use brew to install hugo via terminal:
+```bash
+brew install hugo
 ```
+Verify your installation:
+```bash
+# location
+which hugo
+/usr/local/bin/hugo
+
+# check version
+hugo version
+Hugo Static Site Generator v0.13 BuildDate: 2015-03-09T21:34:47-05:00
+```
+Go to the directory where you want to install hugo files and type:
+```bash
+hugo new site YOURFOLDERNAME
+```
+Change YOURFOLDERNAME with your project's name
+
+## Selecting a theme
+
+You need to pick a theme from [Hugo's theme library](https://themes.gohugo.io/) (unless you want to write your own).
+
+Each theme has a sample site inside and you will be able to customise your theme by using *config.toml* file in the sample site folder.
+
+Hugo's folder structure looks like this:
+
+```bash
+- YourHugoProject
+--- archetypes
+--- content
+--- data
+--- layouts
+--- resources
+--- static
+--- themes
+--- config.toml
+```
+
+TBC...
