@@ -1,6 +1,14 @@
 ---
 title: "Starting with Hugo"
 date: 2020-12-09T22:32:27+11:00
+tags:
+    - hugo
+category:
+    - tech
+keywords:
+    - hugo
+    - golang
+    - go
 draft: false
 ---
 
