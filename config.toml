@@ -40,7 +40,7 @@ weight = 3
   # Home page settings
   description = "I am a naval architect, engineer, and a software hobbyist. I write about coding, life, and discuss ways to build a better tomorrow."
   mainSection = "posts" # your main section
-  showAllPostsOnHomePage = true # default
+  showAllPostsOnHomePage = false # default
   postsOnHomePage = 5 # this option will be ignored if showAllPostsOnHomePage is set to true
   tagsOverview = false # show tags overview by default.
   showProjectsList = false # show projects list by default (if projects data file exists).
