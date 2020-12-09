@@ -1,7 +1,7 @@
 ---
 title: "Starting With Hugo"
 date: 2020-12-09T22:32:27+11:00
-draft: true
+draft: false
 ---
 
 I decided to abandon Wordpress for good, and move my everything to [hugo](https://gohugo.io/).
@@ -15,5 +15,5 @@ Lets get started:
 ## How to install hugo on Mac
 
 ```go
-asd
+some code here
 ```
