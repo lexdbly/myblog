@@ -1,5 +1,5 @@
 ---
-title: "Starting With Hugo"
+title: "Starting with Hugo"
 date: 2020-12-09T22:32:27+11:00
 draft: false
 ---
