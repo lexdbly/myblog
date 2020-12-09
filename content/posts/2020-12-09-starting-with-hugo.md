@@ -3,7 +3,8 @@ title: "Starting with Hugo"
 date: 2020-12-09T22:32:27+11:00
 tags:
     - hugo
-category:
+    - golang
+categories:
     - tech
 keywords:
     - hugo
