@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>themes on Ali Seyyidoglu</title>
+    <link>https://aliseyyidoglu.com/tags/themes/</link>
+    <description>Recent content in themes on Ali Seyyidoglu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Ali Seyyidoglu</copyright>
+    <lastBuildDate>Tue, 08 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://aliseyyidoglu.com/tags/themes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Second Post</title>
+      <link>https://aliseyyidoglu.com/posts/2020-12-08-second-post/</link>
+      <pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://aliseyyidoglu.com/posts/2020-12-08-second-post/</guid>
+      <description>Isn&amp;rsquo;t it great that it is so simple to create blog posts with hugo? I like the fact that I am using a text editor to write my blogs.
+This is some header right here And I continued to say to myself: Why not? Actually there is a better way to say this. Why not?</description>
+    </item>
+    
+    <item>
+      <title>First Post</title>
+      <link>https://aliseyyidoglu.com/posts/2014-04-02-first-post/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://aliseyyidoglu.com/posts/2014-04-02-first-post/</guid>
+      <description>Sample post </description>
+    </item>
+    
+  </channel>
+</rss>
