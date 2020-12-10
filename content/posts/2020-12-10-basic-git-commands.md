@@ -14,7 +14,7 @@ draft: false
 ---
 
 [Cheatsheet](https://cdn.rawgit.com/hostinger/banners/cc2e0268/tutorials/pdf/GIT-cheat-sheet.pdf)
-
+[Another cheatsheet](https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html)
 ## Command list
 
 ### Start GIT at the current directory
