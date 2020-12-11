@@ -28,25 +28,30 @@ brew install git
 git version
 ```
 
-Move to a directory and initialize Git
+Move to root directory and initialize Git
 ```bash
 git init
 git init [PROJECT NAME]
 ```
 
-Clone a repository from remote server
+Clone a repository from remote or local server
 ```bash
-git clone username@host:/path/to/repo
+git clone username@host:/path/to/repo #remote server
 
-(or copy a local repo)
-git clone /path/to/repo
+git clone /path/to/repo #local server
 ```
 
-Add a file to staging area
+Add files to staging area
 ```bash
-git add [FILENAME.py] | [FOLDER/]
+git add [filename.ext] #adding a single file
+git add [FOLDER/] #adding a folder
 git add -p
 git add --all .
+```
+
+Remove files from staging area
+```bash
+git rm [filename.ext] #removing a single file
 ```
 
 Capture changes and save to the Git directory
@@ -57,11 +62,27 @@ git commit -am "commit comment" #combination of above two commands
 git commit --amend
 ```
 
+Configure remote origin
+```bash
+git remote add origin <host-or-remoteURL>
+# In Git, "origin" is a shorthand name for the remote repository that a project was originally cloned from. More precisely, it is used instead of that original repository's URL
+
+git remote add origin https://www.github.com/your-username/your-repo.git #example github connection
+
+```
+
+Push from staging area to Git
+```bash
+git push origin <master>
+
+# In Git, "master" is a naming convention for a branch. After cloning (downloading) a project from a remote server, the resulting local repository has a single local branch: the so-called "master" branch. This means that "master" can be seen as a repository's "default" branch.
+```
+
+## Customize Git
+
 Configure Git profile
 ```bash
-git config --global|local|system user.email "youremail@example.com"
-
-
+git config --global user.email "youremail@example.com" #global|local|system
 ```
 
 Modify Git colors
@@ -69,22 +90,9 @@ Modify Git colors
 git config --global color.ui false|auto|always
 ```
 
-Configure remote origin
-```bash
-git remote add origin <host-or-remoteURL>
+## What is next?
 
-i.e.
-git remote add origin https://www.github.com/your-username/your-repo.git
-
-```
-
-Push from staging area to Git
-```bash
-git push origin <master>
-```
-
-
-Following commands to be explained further:
+Following commands to be explained
 ```bash
 git status
 git remote –v
