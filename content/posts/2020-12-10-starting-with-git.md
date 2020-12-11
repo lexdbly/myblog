@@ -13,12 +13,14 @@ keywords:
 draft: false
 ---
 
-[Cheatsheet](https://cdn.rawgit.com/hostinger/banners/cc2e0268/tutorials/pdf/GIT-cheat-sheet.pdf)
-[Another cheatsheet](https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html)
-[And another one](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
-## Command list
+Start here:
+- [Cheatsheet](https://cdn.rawgit.com/hostinger/banners/cc2e0268/tutorials/pdf/GIT-cheat-sheet.pdf)
+- [Another cheatsheet](https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html)
+- [And another one](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
 
-### Setting up git
+# Command list
+
+## Install Git on MacOS
 
 Install Git using Homebrew
 ```bash

@@ -343,7 +343,6 @@ body .h2 {
 }
 body h3 {
   color: rgba(86,124,119,0.8);
-  text-decoration: underline;
   font-weight: bold;
   font-size: 0.9rem;
 }
