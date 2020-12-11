@@ -4,6 +4,8 @@ date: 2020-12-10T12:50:13+11:00
 tags:
     - git
     - VCS
+    - versioncontrol
+    -tutorial
 categories:
     - tech
 keywords:
@@ -34,6 +36,8 @@ git init
 git init [PROJECT NAME]
 ```
 
+## Prepare working directory
+
 Clone a repository from remote or local server
 ```bash
 git clone username@host:/path/to/repo #remote server
@@ -62,7 +66,9 @@ git commit -am "commit comment" #combination of above two commands
 git commit --amend
 ```
 
-Configure remote origin
+## Working with remote environment
+
+Add remote origin
 ```bash
 git remote add origin <host-or-remoteURL>
 # In Git, "origin" is a shorthand name for the remote repository that a project was originally cloned from. More precisely, it is used instead of that original repository's URL
@@ -71,7 +77,12 @@ git remote add origin https://www.github.com/your-username/your-repo.git #exampl
 
 ```
 
-Push from staging area to Git
+Remove remote origin
+```bash
+git remote rm <name-of-the-repository>
+```
+
+Push from staging area to origin
 ```bash
 git push origin <master>
 
@@ -96,10 +107,8 @@ Following commands to be explained
 ```bash
 git status
 git remote –v
-git remote rm <name-of-the-repository>
 git branch
 git pull
 git merge <branch-name>
-git rm filename.txt
 git fetch origin
 ```
