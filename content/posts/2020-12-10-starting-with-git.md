@@ -66,7 +66,24 @@ git commit -am "commit comment" #combination of above two commands
 git commit --amend
 ```
 
-## Working with remote environment
+## Monitor work environments 
+
+Show Git status
+```bash
+git status #this will show branch, files to be staged, files to be pushed
+```
+
+Show remote directory
+```bash
+git remote –v
+```
+
+Show branch
+```bash
+git branch
+```
+
+## Work with remote environment
 
 Add remote origin
 ```bash
@@ -80,6 +97,21 @@ git remote add origin https://www.github.com/your-username/your-repo.git #exampl
 Remove remote origin
 ```bash
 git remote rm <name-of-the-repository>
+```
+
+Pull from origin
+```bash
+git pull
+```
+
+Merge branches
+```bash
+git merge <branch-name>
+```
+
+Fetch origin
+```bash
+git fetch origin
 ```
 
 Push from staging area to origin
@@ -99,16 +131,4 @@ git config --global user.email "youremail@example.com" #global|local|system
 Modify Git colors
 ```bash
 git config --global color.ui false|auto|always
-```
-
-## What is next?
-
-Following commands to be explained
-```bash
-git status
-git remote –v
-git branch
-git pull
-git merge <branch-name>
-git fetch origin
 ```
