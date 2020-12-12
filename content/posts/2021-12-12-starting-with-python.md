@@ -1,6 +1,6 @@
 ---
 title: "Send SMTP Email With Python"
-date: 2020-12-11T00:32:27+11:00
+date: 2020-12-12
 tags:
     - python
     - smtplib
