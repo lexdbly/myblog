@@ -1,6 +1,6 @@
 ---
 title: "Starting with Python"
-date: 2020-12-12
+date: 2020-12-12T00:32:27+11:00
 tags:
     - python
     - language
