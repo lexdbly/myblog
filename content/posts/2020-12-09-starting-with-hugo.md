@@ -19,29 +19,21 @@ Nevertheless, I managed to build this site and it does not look too bad in the e
 
 I'd like to show you how to install hugo and deploy your website by using hugo, github and digitalocean. Lets get started!
 
-## How to install hugo on MacOS
+# Install Hugo on MacOS
 
-Use brew to install hugo via terminal:
+Install hugo via terminal
 ```bash
-brew install hugo
+brew install hugo # install hugo
+which hugo # verify your installation -> /usr/local/bin/hugo
+hugo version # check version -> Hugo Static Site Generator v0.13 BuildDate: 2015-03-09T21:34:47-05:00
 ```
-Verify your installation:
-```bash
-# location
-which hugo
-/usr/local/bin/hugo
 
-# check version
-hugo version
-Hugo Static Site Generator v0.13 BuildDate: 2015-03-09T21:34:47-05:00
-```
-Go to the directory where you want to install hugo files and type:
+Create a new site in current directory
 ```bash
-hugo new site YOURFOLDERNAME
+hugo new site YOURFOLDERNAME # change YOURFOLDERNAME
 ```
-Change YOURFOLDERNAME with your project's name
 
-## Selecting a theme
+## Themes
 
 You need to pick a theme from [Hugo's theme library](https://themes.gohugo.io/) (unless you want to write your own).
 
