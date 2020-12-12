@@ -5,7 +5,7 @@ tags:
     - git
     - VCS
     - versioncontrol
-    -tutorial
+    - tutorial
 categories:
     - tech
 keywords:
