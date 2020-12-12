@@ -14,6 +14,30 @@ keywords:
 draft: false
 ---
 
+This script will show you how to send emails to different recipients and attachments by using smtplib.
+
+To be able to use this script, you need to enable smtp connections from your email service provider's settings. SMTP connection may not be authorised by default due to security reasons.
+
+# Outline
+1. Enter your credentials, including your email, password, smtp url, smtp port
+1. Setup the data structure
+    - Data is in list of dictionaries format
+    - Each dictionary is composed of:
+        - Recipient email
+        - Mail subject
+        - Mail body
+        - Attachment list (this is a nested list of dictionaries)
+            - Attachment file location
+1. You can create a long list of dictionaries, with as many email as you want to be sent according to the data structure
+1. Script logs into smtp server
+1. Script loops through data, and generates a MIMEMultipart for each dictionary (aka email)
+1. Script attaches the attachment according to the attachment list
+1. Script sends email with attachments
+1. Script quits the server
+
+This is the source code:
+
+
 ```python
 import smtplib
 from email.mime.text import MIMEText
