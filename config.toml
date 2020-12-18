@@ -44,7 +44,7 @@ weight = 3
   postsOnHomePage = 5 # this option will be ignored if showAllPostsOnHomePage is set to true
   tagsOverview = false # show tags overview by default.
   showProjectsList = false # show projects list by default (if projects data file exists).
-  projectsUrl = "https://github.com/adoubley/" # title link for projects list
+  projectsUrl = "https://github.com/lexdbly/" # title link for projects list
 
   # https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference
   dateFormat = "2006-01-02" # default
@@ -60,7 +60,7 @@ weight = 3
   # https://fontawesome.com/icons?d=gallery&s=brands
    [[params.social]]
     name = "github"
-    link = "https://github.com/adoubley"
+    link = "https://github.com/lexdbly/"
   [[params.social]]
     name = "linkedin"
     link = "https://www.linkedin.com/in/aseyyidoglu/"
