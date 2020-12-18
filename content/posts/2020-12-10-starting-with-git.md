@@ -37,6 +37,12 @@ git init
 git init [PROJECT NAME]
 ```
 
+## Reset credentials
+
+```bash
+git config --global --unset credential.helper
+```
+
 ## Prepare working directory
 
 Clone a repository from remote or local server
