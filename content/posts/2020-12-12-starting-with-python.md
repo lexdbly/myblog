@@ -8,7 +8,7 @@ categories:
     - tech
 keywords:
     - python
-draft: false
+draft: true
 ---
 
 Everything about Python will come here

@@ -23,14 +23,14 @@ I'd like to show you how to install hugo and deploy your website by using hugo, 
 
 Install hugo via terminal
 ```bash
-brew install hugo # install hugo
-which hugo # verify your installation -> /usr/local/bin/hugo
-hugo version # check version -> Hugo Static Site Generator v0.13 BuildDate: 2015-03-09T21:34:47-05:00
+which hugo #verify your installation. You should see something like this if you have hugo already installed: /usr/local/bin/hugo
+brew install hugo #install hugo
+hugo version #check version: Hugo Static Site Generator v0.13 BuildDate: 2015-03-09T21:34:47-05:00
 ```
 
 Create a new site in current directory
 ```bash
-hugo new site YOURFOLDERNAME # change YOURFOLDERNAME
+hugo new site [foldername] #change foldername
 ```
 
 ## Themes
@@ -43,14 +43,17 @@ Hugo's folder structure looks like this:
 
 ```bash
 - YourHugoProject
---- archetypes
---- content
---- data
---- layouts
---- resources
---- static
---- themes
---- config.toml
+|-- archetypes
+|-- content
+    |-- posts   #blog posts here
+|-- data
+|-- layouts     #theme components come here
+|-- resources
+|-- static      #all static assets
+    |-- css         #place css files here
+    |-- js          #place javascript files here
+    |-- images      #place images here
+    |-- lib         #place library files here such as jquery, bootstrap, fontawesome
+|-- themes      #external themes to be installed in this directory
+|-- config.toml #theme configuration file
 ```
-
-TBC...
