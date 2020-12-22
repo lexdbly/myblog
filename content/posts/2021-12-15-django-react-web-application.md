@@ -16,7 +16,27 @@ In this article, I will explain how to build a django + react web application.
 
 # Starting with Django
 
+Before you start working with django, I suggest you to use `virtualenv` to manage your package versions.
+
 ## Virtual environment
+
+Verify if you have virtualenv installed
+
+```bash
+virtualenv --version
+```
+
+Install virtualenv
+
+```bash
+pip3 install virtualenv
+```
+
+Go to the directory where you will work with django and create a virtuan environment
+
+```bash
+python3 -m venv env #env is the name of virtual environment folder
+```
 
 ## Install Django
 
