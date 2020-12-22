@@ -9,7 +9,7 @@ categories:
 keywords:
     - python
     - dictionary
-draft: true
+draft: false
 ---
 
 In this article, I will explain how to build a django + react web application.
