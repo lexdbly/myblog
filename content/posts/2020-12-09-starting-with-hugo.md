@@ -57,3 +57,7 @@ Hugo's folder structure looks like this:
 |-- themes      #external themes to be installed in this directory
 |-- config.toml #theme configuration file
 ```
+
+You need to create your content (posts and pages) in markdown language, which means a [Markdown Snippet Guilde](https://sites.google.com/site/getsnippet/html-1/markdown) can be useful if you are not familiar with it.
+
+Markdown is a language which replaces typical html codes. For example, `<h1></h1>` tag is replaced by `#` symbol in markdown. For full list of notations, [visit here](https://sites.google.com/site/getsnippet/html-1/markdown) .
