@@ -11,6 +11,7 @@ keywords:
     - golang
     - go
 draft: false
+comments: true
 ---
 
 I decided to abandon Wordpress for good, and move my everything to [hugo](https://gohugo.io/).

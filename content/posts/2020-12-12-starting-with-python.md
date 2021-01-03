@@ -9,6 +9,7 @@ categories:
 keywords:
     - python
 draft: true
+comments: true
 ---
 
 Everything about Python will come here

@@ -13,6 +13,7 @@ keywords:
     - version control system
     - cheatsheet
 draft: false
+comments: true
 ---
 
 # Cheatsheets

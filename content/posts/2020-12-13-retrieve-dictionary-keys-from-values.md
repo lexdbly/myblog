@@ -10,6 +10,7 @@ keywords:
     - python
     - dictionary
 draft: false
+comments: true
 ---
 
 Standard way of using a dictionary is providing keys to retrieve values.

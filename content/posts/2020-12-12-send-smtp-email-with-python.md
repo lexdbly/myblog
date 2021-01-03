@@ -12,6 +12,7 @@ keywords:
     - smtplib
     - send email
 draft: false
+comments: true
 ---
 
 This script will show you how to send emails to different recipients and attachments by using smtplib.

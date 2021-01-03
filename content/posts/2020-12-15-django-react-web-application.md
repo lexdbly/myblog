@@ -10,6 +10,7 @@ keywords:
     - python
     - dictionary
 draft: false
+comments: true
 ---
 
 In this article, I will explain how to build a django + react web application.

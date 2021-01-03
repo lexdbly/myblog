@@ -10,6 +10,7 @@ keywords:
     - HTML
     - elements
 draft: false
+comments: true
 ---
 
 ```html

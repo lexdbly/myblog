@@ -2,7 +2,7 @@ baseURL = "https://www.aliseyyidoglu.com"
 languageCode = "en-us"
 title = "Ali Seyyidoglu"
 copyright = "Ali Seyyidoglu" # cactus will use title if copyright is not set
-disqusShortname = "example" # Used when comments is enabled. Cactus will use site title if not set
+disqusShortname = "www-aliseyyidoglu-com" # Used when comments is enabled. Cactus will use site title if not set
 # googleAnalytics = "UA-1234-5"
 
 
