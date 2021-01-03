@@ -24,6 +24,11 @@ name = "About"
 url = "/about"
 weight = 3
 
+[[menu.main]]
+name = "Reference"
+url = "/reference"
+weight = 4
+
 [markup]
   [markup.tableOfContents]
     endLevel = 4
